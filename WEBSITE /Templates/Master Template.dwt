@@ -11,9 +11,14 @@
 <!-- TemplateParam name="The Companions" type="boolean" value="false" -->
 <!-- TemplateParam name="Monsters" type="boolean" value="false" -->
 <!-- TemplateParam name="About Doctor Who" type="boolean" value="true" -->
+<style type="text/css">
+.background {
+	background-color: #09F;
+}
+</style>
 </head>
 
-<body>
+<body class="background">
 <table width="1000">
   <tr>
     <td><a href="../index.html">Home</a></td>
