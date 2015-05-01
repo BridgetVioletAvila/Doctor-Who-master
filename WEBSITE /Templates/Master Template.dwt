@@ -10,6 +10,7 @@
 <!-- TemplateParam name="The Doctors Menu" type="boolean" value="false" -->
 <!-- TemplateParam name="The Companions" type="boolean" value="false" -->
 <!-- TemplateParam name="Monsters" type="boolean" value="false" -->
+<!-- TemplateParam name="About Doctor Who" type="boolean" value="true" -->
 </head>
 
 <body>
@@ -71,7 +72,13 @@
         <li><a href="../the-villains/the-slitheen.html">The Slitheen</a></li>
         <li><a href="../the-villains/the-santarons.html">The Sontarans</a></li>
       </ul>
-    <!-- TemplateEndIf -->      <p>&nbsp;</p></td>cf
+    <!-- TemplateBeginIf cond="_document['About Doctor Who']" -->
+    <p><a href="../index.html">About The Show</a></p>
+    <p><a href="../the-doctors/index.html">The Doctors</a></p>
+    <p><a href="../the-villains/index.html">The Monsters </a></p>
+    <p><a href="../the-companions/index.html">The Companions</a></p>
+    <!-- TemplateEndIf --><!-- TemplateEndIf -->      
+      <p>&nbsp;</p></td>cf
     <td><!-- TemplateBeginEditable name="Content" -->[Content]<!-- TemplateEndEditable --></td>
   </tr>
 </table>
